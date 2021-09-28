@@ -52,7 +52,7 @@ h1 span {
   font-size: 1.1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
   border-top: .2rem solid #e2e2e2;
   font-size: .8rem;
@@ -83,11 +83,6 @@ nav ul {
   margin-bottom: -1rem;
   padding-bottom: .2rem;
 }
-
-/*nav li {
-font-size: 1.125rem;
-padding: 0 .5em 1rem;
-}*/
 
 h2 span {
   font-size: 1rem;
@@ -156,7 +151,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-      margin-bottom: -1rem;
+    margin-bottom: -1rem;
   }
 
   section {
@@ -169,29 +164,30 @@ a {
     margin-top: -1rem;
   }
 
-div {
-  margin-bottom: 1rem;
-}
+  div {
+    margin-bottom: 1rem;
+  }
 
-article {
-margin-top: -0.4rem;
-margin-bottom: 1.5rem;
-}
+  article {
+    margin-top: -.4rem;
+    margin-bottom: 1.5rem;
+  }
 
-article p {
-  margin-bottom: 1rem;
-}
+  article p {
+    margin-bottom: 1rem;
+  }
 
-article a {
-  margin-bottom: -1rem;
-}
+  article a {
+    margin-bottom: -1rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-.intro {
-padding-left: 10rem;
-padding-right: 10em;
-}
+  .intro {
+    padding-left: 10rem;
+    padding-right: 10em;
+  }
 
 }
