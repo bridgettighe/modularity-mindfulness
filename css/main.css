@@ -24,35 +24,40 @@ body {
 img {
   display: block;
   width: 100%;
+  padding: 1rem;
 }
 
 header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   padding: 1rem .5rem;
 }
 
 main {
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 0;
+  padding: 0 1rem;
   font-size: 2rem;
-  margin-left: 1rem;
 }
 
-footer {
-  padding: 1rem;
+h1 span {
+  font-size: 1.1rem;
+}
+
+footer p{
   text-align: center;
-  border-top: .2rem;
-  color: #e2e2e2;
-}
-
-article p {
-  margin: 0 0 1.5rem;
+  border-top: .2rem solid #e2e2e2;
+  font-size: .8rem;
+  padding-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 article a {
@@ -62,25 +67,74 @@ article a {
   border: .2rem solid rgba(55, 131, 163, .4);
   margin-top: auto;
   border-radius: .3rem;
+  font-size: 1rem;
 }
 
 article {
   display: grid;
 }
 
-ul {
+nav ul {
   display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: space-between;
-  margin: 1.5rem;
-  align-items: center;
+  list-style-type: none;
+  margin-bottom: -1rem;
+  padding-bottom: .2rem;
 }
 
-li {
-  list-style-type: none;
-}
+/*nav li {
+font-size: 1.125rem;
+padding: 0 .5em 1rem;
+}*/
 
 h2 span {
   font-size: 1rem;
+  display: flex;
+}
+
+h2 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+article p {
+  margin: 1rem;
+}
+
+.intro {
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  border-top: .2rem solid #e2e2e2;
+  border-bottom: .2rem solid #e2e2e2;
+  padding-left: 1rem;
+  padding-right: 1em;
+  padding-top: .5rem;
+  margin-top: 1rem;
+}
+
+main i {
+  margin-bottom: 1rem;
+}
+
+div p {
+  padding-bottom: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: #3783a3;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media only screen and (min-width: 38em) {
@@ -89,15 +143,46 @@ h2 span {
     align-items: start;
   }
 
+  .intro {
+    align-items: center;
+    align-content: center;
+    padding-left: 8rem;
+    margin-left: -4rem;
+    padding-right: 1em;
+    margin-right: 4rem;
+  }
+
   header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+      margin-bottom: -1rem;
   }
 
   section {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 
+  footer {
+    margin-top: -1rem;
+  }
+
+div {
+  margin-bottom: 1rem;
+}
+
+article {
+margin-top: -0.4rem;
+margin-bottom: 1.5rem;
+}
+
+article p {
+  margin-bottom: 1rem;
+}
+
+article a {
+  margin-bottom: -1rem;
+}
 }
